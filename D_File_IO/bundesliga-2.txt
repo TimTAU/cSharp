@@ -1,0 +1,5 @@
+club: VfL Wolfsburg             
+club: FC Bayern Muenchen        
+club: VfB Stuttgart             
+club: Hertha BSC                
+club: Hamburger SV              
