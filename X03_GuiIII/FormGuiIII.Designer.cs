@@ -23,8 +23,8 @@
         #region Vom Windows Form-Designer generierter Code
 
         /// <summary>
-        /// Erforderliche Methode für die Designerunterstützung.
-        /// Der Inhalt der Methode darf nicht mit dem Code-Editor geändert werden.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
@@ -74,7 +74,7 @@
             // 
             // labelInfo
             // 
-            this.labelInfo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.labelInfo.Anchor = ((System.Windows.Forms.AnchorStyles) ((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.labelInfo.AutoSize = true;
             this.labelInfo.Location = new System.Drawing.Point(84, 327);
             this.labelInfo.Name = "labelInfo";
@@ -84,7 +84,7 @@
             // 
             // buttonStart
             // 
-            this.buttonStart.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.buttonStart.Anchor = ((System.Windows.Forms.AnchorStyles) ((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.buttonStart.Location = new System.Drawing.Point(3, 322);
             this.buttonStart.Name = "buttonStart";
             this.buttonStart.Size = new System.Drawing.Size(75, 23);
@@ -95,9 +95,7 @@
             // 
             // propertyGridTTT
             // 
-            this.propertyGridTTT.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.propertyGridTTT.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
             this.propertyGridTTT.HelpVisible = false;
             this.propertyGridTTT.Location = new System.Drawing.Point(3, 3);
             this.propertyGridTTT.Name = "propertyGridTTT";
@@ -118,17 +116,16 @@
             this.panelGameControl.ResumeLayout(false);
             this.panelGameControl.PerformLayout();
             this.ResumeLayout(false);
-
         }
 
-        #endregion
-
-        private System.Windows.Forms.TabControl tabControlMain;
-        private System.Windows.Forms.TabPage tabPageTTT;
-        private System.Windows.Forms.PropertyGrid propertyGridTTT;
-        private System.Windows.Forms.Panel panelGameControl;
         private System.Windows.Forms.Button buttonStart;
         private System.Windows.Forms.Label labelInfo;
+        private System.Windows.Forms.Panel panelGameControl;
+        private System.Windows.Forms.PropertyGrid propertyGridTTT;
+        private System.Windows.Forms.TabControl tabControlMain;
+        private System.Windows.Forms.TabPage tabPageTTT;
+
+        #endregion
     }
 }
 
